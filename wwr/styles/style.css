@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: 'Alan Sans', Roboto,
+    font-family: 'Alan Sans', Roboto;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
 nav a {
     text-align: center;
 }  
@@ -17,6 +19,9 @@ nav a {
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -59,6 +64,7 @@ h4 {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #0B4F6C;
@@ -122,6 +128,9 @@ footer .social img {
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 
 }
