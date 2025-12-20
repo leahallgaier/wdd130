@@ -233,7 +233,7 @@ footer .social img {
     grid-row: 1/2;
     text-align: right;
 }
-#Gray-canyon {
+.Gray-canyon {
     grid-column: 2/3;
     grid-row: 1/5;
     width: 100%; 
