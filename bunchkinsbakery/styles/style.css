@@ -240,10 +240,30 @@ footer .social img {
   
 
 
+/*What We Do*/
+#themes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.Fall {
+    grid-column: 1/2;
+    margin: 20px;
+}
+.Grad {
+    grid-column: 3/4;
+    margin: 20px;
+    width: 400px;
+}
+#Cater {
+    grid-column: 2/3;
+    margin: 20px;
+}
+
 
 
 /*Our Practices*/
-.shakinghands {
+.shakinghands, .partyfood {
     width: 1220px;
     margin: 20px;
     align-content: center;
