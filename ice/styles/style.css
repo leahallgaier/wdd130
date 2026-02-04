@@ -1,0 +1,55 @@
+
+
+
+
+
+
+title, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFFFFE;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;       /* Vital: Makes container the full height of the viewport */
+  background-color: #FFECD7;
+  font-family: Helvetica;
+}
+
+.card {
+    padding: 2rem;
+    background: #008DB1;
+  border: #004E63;
+  border-radius: 8px;
+  width: 300px;
+}
+
+h2 {
+    color: #91E4FB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #FFECD7;
+}
+
+ul {
+    color: #FFFFFE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Dallin {
+    color:#FFFFFE;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+#Quote {
+    color: #FFD783;
+    font-family: Brush Script MT;
+}
