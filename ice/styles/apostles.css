@@ -2,13 +2,15 @@
 
 
 
-
+body{
+  background-image: url('images/christus.webp');
+}
 
 
 .container {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  
+  width: 200px;
   min-height: 100vh;       /* Vital: Makes container the full height of the viewport */
   background-color: #E8ECED;
   font-family: Arial, Helvetica, sans-serif;
@@ -20,16 +22,31 @@
   border: #000000;
   border-radius: 8px;
   width: 900px;
-  
+}
 /*Background Christus image inside the card */
+.christus {
     background-image: url('christus.webp');
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: left top; /* Sets the image to the top left corner */
-    background-size: cover; /* Makes the image cover the entire element */
+    background-size: 400px; /* Makes the image cover the entire element */
     background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    z-index: -1; /* Makes the image the background */
 }
 
 
+
+
+
+
+.first-presidency-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quorum-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 #Dallin {
@@ -46,6 +63,9 @@ h2 {
 
 
 /*Images of the apostles */
-.apostle {
+.anderson, .bednar, .causse, .christofferson, .cook, .eyring, .gong, .holland, .kearon, .dallin, .rasband, .renlund, .soares, .stevenson, .uchtdorf {
   border-radius: 50%;   /*Makes the image circular */
+  border-color: #E8ECED;
+  aspect-ratio: 1/1;    /*Makes the height to match the width */
+  object-fit: cover; /*Crops the edges so it doesn't look squished */
 }
