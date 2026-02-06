@@ -15,9 +15,9 @@
 .card {
   background-image: url('../images/christus.webp'); /* The ../ means it's going up one folder */
   padding: 2rem;
-  border: #000000;
-  border-radius: 8px;
-  width: 1200px;
+  border: 10px solid #000000;
+  border-radius: 20px;
+  width: 1150px;
 }
 
 
@@ -56,3 +56,7 @@ h2 {
   object-fit: cover; /*Crops the edges so it doesn't look squished */
   width: 200px;
 }
+
+
+/*grid-column: 4/6;
+  grid-row: 4/6; */
