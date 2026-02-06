@@ -2,10 +2,6 @@
 
 
 
-body{
-  background-image: url('images/christus.webp');
-}
-
 
 .container {
   display: flex;
@@ -17,22 +13,12 @@ body{
 }
 
 .card {
-    padding: 2rem;
-    background: #008DB1;
+  background-image: url('../images/christus.webp'); /* The ../ means it's going up one folder */
+  padding: 2rem;
   border: #000000;
   border-radius: 8px;
-  width: 900px;
+  width: 1200px;
 }
-/*Background Christus image inside the card */
-.christus {
-    background-image: url('christus.webp');
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: left top; /* Sets the image to the top left corner */
-    background-size: 400px; /* Makes the image cover the entire element */
-    background-attachment: fixed; /* Keeps the image fixed when scrolling */
-    z-index: -1; /* Makes the image the background */
-}
-
 
 
 
@@ -65,7 +51,8 @@ h2 {
 /*Images of the apostles */
 .anderson, .bednar, .causse, .christofferson, .cook, .eyring, .gong, .holland, .kearon, .dallin, .rasband, .renlund, .soares, .stevenson, .uchtdorf {
   border-radius: 50%;   /*Makes the image circular */
-  border-color: #E8ECED;
+  border: 10px solid #E8ECED;
   aspect-ratio: 1/1;    /*Makes the height to match the width */
   object-fit: cover; /*Crops the edges so it doesn't look squished */
+  width: 200px;
 }
