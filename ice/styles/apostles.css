@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  
+  min-height: 100vh;       /* Vital: Makes container the full height of the viewport */
+  background-color: #E8ECED;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    padding: 2rem;
+    background: #008DB1;
+  border: #000000;
+  border-radius: 8px;
+  width: 900px;
+  
+/*Background Christus image inside the card */
+    background-image: url('christus.webp');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: left top; /* Sets the image to the top left corner */
+    background-size: cover; /* Makes the image cover the entire element */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+}
+
+
+
+
+#Dallin {
+    color:#E8ECED;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #E8ECED;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+/*Images of the apostles */
+.apostle {
+  border-radius: 50%;   /*Makes the image circular */
+}
