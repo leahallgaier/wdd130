@@ -18,6 +18,7 @@ nav {
     margin: 0 auto;
 }
 nav {
+    font-family: 'Lora';
     display: flex;
     justify-content: space-around;
 } 
