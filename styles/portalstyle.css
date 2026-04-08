@@ -8,6 +8,7 @@ h1 {
 
 nav {
     font-family: 'Nunito Sans';
+    font-size: 50px;
     display: flex;
     justify-content: space-around;
 } 
